@@ -1,0 +1,71 @@
+
+body {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,h2 {
+    text-align: center;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin: 2rem;
+}
+
+img {
+    box-shadow: 0px 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+}
+button{
+    font-size: 14px;
+    font-weight: 900;
+    padding: 6px 12px;
+    background: radial-gradient(circle, #2f06e4, #1418f3);
+    width: 6rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 0px white;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background: radial-gradient(circle, #eee4e2, #1418f3);
+    transform: translateY(2px);
+    box-shadow: 0px 2px 0px white;
+}
+button:active{
+    background: radial-gradient(circle, #eee4e2, #0c0c0c);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.card:hover img {
+    background-color: rgb(0, 0, 0);
+}
+
+.evenColor {
+    background-color: purple;
+}
+
+.oddColor {
+    background-color: aqua;
+}
